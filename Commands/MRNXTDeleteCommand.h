@@ -11,6 +11,6 @@
 
 }
 
-@property (copy) NSString *filename;
+@property (nonatomic, copy) NSString *filename;
 
 @end

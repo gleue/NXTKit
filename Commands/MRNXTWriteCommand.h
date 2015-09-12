@@ -11,7 +11,7 @@
 
 }
 
-@property (assign) uint8_t handle;
-@property (retain) NSData *data; // max size: 64 bytes
+@property (nonatomic, assign) uint8_t handle;
+@property (nonatomic, strong) NSData *data; // max size: 64 bytes
 
 @end

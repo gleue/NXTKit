@@ -11,7 +11,7 @@
 
 }
 
-@property (copy) NSString *filename;
-@property (assign) uint32_t size;
+@property (nonatomic, copy) NSString *filename;
+@property (nonatomic, assign) uint32_t size;
 
 @end

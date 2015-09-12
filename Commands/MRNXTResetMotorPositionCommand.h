@@ -12,7 +12,7 @@
 
 }
 
-@property (assign) NXTOutputPort port;
-@property (assign) BOOL relative;
+@property (nonatomic, assign) NXTOutputPort port;
+@property (nonatomic, assign) BOOL relative;
 
 @end

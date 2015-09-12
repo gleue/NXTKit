@@ -11,6 +11,6 @@
 
 }
 
-@property (assign) uint8_t handle;
+@property (nonatomic, assign) uint8_t handle;
 
 @end

@@ -12,12 +12,12 @@
 
 }
 
-@property (assign) NXTOutputPort port;
-@property (assign) int8_t power;
-@property (assign) NXTOutputMode outputMode;
-@property (assign) NXTRegulationMode regulationMode;
-@property (assign) int8_t turnRatio;
-@property (assign) NXTRunState runState;
-@property (assign) uint32_t tachoLimit;
+@property (nonatomic, assign) NXTOutputPort port;
+@property (nonatomic, assign) int8_t power;
+@property (nonatomic, assign) NXTOutputMode outputMode;
+@property (nonatomic, assign) NXTRegulationMode regulationMode;
+@property (nonatomic, assign) int8_t turnRatio;
+@property (nonatomic, assign) NXTRunState runState;
+@property (nonatomic, assign) uint32_t tachoLimit;
 
 @end

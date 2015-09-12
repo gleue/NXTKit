@@ -35,13 +35,8 @@
 	
 	[data appendData:contents];
 	
-	return [data autorelease];
+	return data;
 }
 
-- (void)dealloc {
-	[contents release];
-	
-	[super dealloc];
-}
 
 @end

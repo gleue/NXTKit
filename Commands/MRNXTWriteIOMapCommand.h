@@ -11,8 +11,8 @@
 
 }
 
-@property (assign) uint32_t moduleID;
-@property (assign) uint16_t offset;
-@property (retain) NSData *contents;
+@property (nonatomic, assign) uint32_t moduleID;
+@property (nonatomic, assign) uint16_t offset;
+@property (nonatomic, strong) NSData *contents;
 
 @end

@@ -32,13 +32,8 @@
 	uint32_t n_size = OSSwapHostToLittleInt32(size);
 	[data appendBytes:&n_size length:sizeof(n_size)];
 	
-	return [data autorelease];
+	return data;
 }
 
-- (void)dealloc {
-	[filename release];
-	
-	[super dealloc];
-}
 
 @end

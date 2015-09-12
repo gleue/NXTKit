@@ -11,7 +11,7 @@
 
 }
 
-@property (assign) uint8_t handle;
-@property (assign) uint16_t bytesToRead; // max size: 64 bytes
+@property (nonatomic, assign) uint8_t handle;
+@property (nonatomic, assign) uint16_t bytesToRead; // max size: 64 bytes
 
 @end

@@ -23,10 +23,5 @@
 	size = OSSwapLittleToHostInt32(size);
 }
 
-- (void)dealloc {
-	[filename release];
-	
-	[super dealloc];
-}
 
 @end

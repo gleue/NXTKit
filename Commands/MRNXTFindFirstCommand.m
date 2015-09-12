@@ -29,10 +29,5 @@
 	return [NSMutableData dataWithNXTFilename:filename];
 }
 
-- (void)dealloc {
-	[filename release];
-	
-	[super dealloc];
-}
 
 @end

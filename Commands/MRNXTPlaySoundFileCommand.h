@@ -11,7 +11,7 @@
 
 }
 
-@property (assign) BOOL loop;
-@property (copy) NSString *filename;
+@property (nonatomic, assign) BOOL loop;
+@property (nonatomic, copy) NSString *filename;
 
 @end
