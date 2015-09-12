@@ -317,7 +317,7 @@ static char readBuffer[READ_BUFFER_LEN];
 	
 	UInt8 outNum = [[outPipes objectAtIndex:0] intValue]; // write to first out pipe for now
 	
-	result = (*_interface)->WritePipeAsync(_interface, outNum, (void *) [data bytes], [data length],
+	result = (*_interface)->WritePipeAsync(_interface, outNum, (void *) [data bytes], (UInt32)[data length],
 										   &WriteCompletion, (__bridge void *)(self));
 	
 	if (result != kIOReturnSuccess) {
@@ -384,7 +384,7 @@ static void ReadCompletion (void *refCon, IOReturn result, void *arg0) {
 	MRUSBDeviceTransport *self = (__bridge MRUSBDeviceTransport *) refCon;
 	size_t bytesRead = (size_t) arg0;
 	
-	[self didReadBytesWithResult:result number:bytesRead];
+	[self didReadBytesWithResult:result number:(UInt32)bytesRead];
 }
 
 static void WriteCompletion (void *refCon, IOReturn result, void *arg0) {

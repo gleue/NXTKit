@@ -20,7 +20,7 @@
 
 @synthesize service = _service;
 
-static void MatchedService (void *refcon, io_iterator_t iterator);
+//static void MatchedService (void *refcon, io_iterator_t iterator);
 
 + (CFMutableDictionaryRef)newMatchingDictionaryForProductID:(int)pid vendorID:(int)vid {
 	CFMutableDictionaryRef matchingDict = IOServiceMatching(kIOUSBDeviceClassName);
