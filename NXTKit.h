@@ -14,6 +14,7 @@
 #import <NXTKit/MRNXTDeleteCommand.h>
 #import <NXTKit/MRNXTFindFirstCommand.h>
 #import <NXTKit/MRNXTFindNextCommand.h>
+#import <NXTKit/MRNXTGetBatteryLevelCommand.h>
 #import <NXTKit/MRNXTGetDeviceInfoCommand.h>
 #import <NXTKit/MRNXTOpenReadCommand.h>
 #import <NXTKit/MRNXTOpenWriteCommand.h>
@@ -27,6 +28,7 @@
 #import <NXTKit/MRNXTWriteCommand.h>
 #import <NXTKit/MRNXTWriteIOMapCommand.h>
 
+#import <NXTKit/MRNXTBatteryLevelResponse.h>
 #import <NXTKit/MRNXTDataResponse.h>
 #import <NXTKit/MRNXTDeviceInfoResponse.h>
 #import <NXTKit/MRNXTFileResponse.h>

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */; };
+		3DC48A301BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC48A321BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */; };
+		3DC48A341BA60C6C0039639F /* MRNXTBatteryLevelResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A331BA60C6C0039639F /* MRNXTBatteryLevelResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC48A361BA60C7C0039639F /* MRNXTBatteryLevelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A351BA60C7C0039639F /* MRNXTBatteryLevelResponse.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		C920434612F3B5430090C9CC /* MRUSBDeviceEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = C920434412F3B5430090C9CC /* MRUSBDeviceEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,6 +95,10 @@
 		32DBCF5E0370ADEE00C91783 /* NXTKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTKit_Prefix.pch; sourceTree = "<group>"; };
 		3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTStopProgramCommand.h; sourceTree = "<group>"; };
 		3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTStopProgramCommand.m; sourceTree = "<group>"; };
+		3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTGetBatteryLevelCommand.h; sourceTree = "<group>"; };
+		3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTGetBatteryLevelCommand.m; sourceTree = "<group>"; };
+		3DC48A331BA60C6C0039639F /* MRNXTBatteryLevelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTBatteryLevelResponse.h; sourceTree = "<group>"; };
+		3DC48A351BA60C7C0039639F /* MRNXTBatteryLevelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTBatteryLevelResponse.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* NXTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NXTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C920434412F3B5430090C9CC /* MRUSBDeviceEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRUSBDeviceEntry.h; sourceTree = "<group>"; };
@@ -261,6 +269,8 @@
 		C92808E7124CF4F5001E5771 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
+				3DC48A331BA60C6C0039639F /* MRNXTBatteryLevelResponse.h */,
+				3DC48A351BA60C7C0039639F /* MRNXTBatteryLevelResponse.m */,
 				C93A187912577BE7008F89C8 /* MRNXTDataResponse.h */,
 				C93A187A12577BE7008F89C8 /* MRNXTDataResponse.m */,
 				C92808E8124CF505001E5771 /* MRNXTDeviceInfoResponse.h */,
@@ -328,6 +338,8 @@
 				C9E79F88124D5376003DAB85 /* MRNXTFindNextCommand.h */,
 				C9E79F89124D5376003DAB85 /* MRNXTFindNextCommand.m */,
 				C928088D124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.h */,
+				3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */,
+				3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */,
 				C928088E124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.m */,
 				C9EED84F1256A2DD0035519C /* MRNXTOpenReadCommand.h */,
 				C9EED8501256A2DD0035519C /* MRNXTOpenReadCommand.m */,
@@ -365,6 +377,7 @@
 				C98D0B2B1204E96200E56E77 /* MRNXTDevice.h in Headers */,
 				C98D0B551204ED1E00E56E77 /* MRNXTCommand.h in Headers */,
 				C98D0BF11204F5A100E56E77 /* MRNXTSetOutputStateCommand.h in Headers */,
+				3DC48A301BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h in Headers */,
 				C98D0BF51204FB6900E56E77 /* NSMutableArray+Queue.h in Headers */,
 				C98D0C021204FF3800E56E77 /* MRNXTResponse.h in Headers */,
 				3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */,
@@ -381,6 +394,7 @@
 				C9EED8511256A2DD0035519C /* MRNXTOpenReadCommand.h in Headers */,
 				C9EED8551256A2F20035519C /* MRNXTOpenWriteCommand.h in Headers */,
 				C9EED85B1256A4B90035519C /* MRNXTHandleSizeResponse.h in Headers */,
+				3DC48A341BA60C6C0039639F /* MRNXTBatteryLevelResponse.h in Headers */,
 				C9EED8891256A8D20035519C /* MRNXTCloseCommand.h in Headers */,
 				C997ACDE126A02E1006D4371 /* MRNXTResetMotorPositionCommand.h in Headers */,
 				C9EED8911256ABF80035519C /* MRNXTReadCommand.h in Headers */,
@@ -480,6 +494,7 @@
 				C9E7A063124D722E003DAB85 /* MRNXTDeleteCommand.m in Sources */,
 				C966CF35124E3664008EDF60 /* MRNXTStartProgramCommand.m in Sources */,
 				C9D52236124FBC0800C9AD55 /* MRNXTPlaySoundFileCommand.m in Sources */,
+				3DC48A321BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m in Sources */,
 				C9EED8521256A2DD0035519C /* MRNXTOpenReadCommand.m in Sources */,
 				C9EED8561256A2F20035519C /* MRNXTOpenWriteCommand.m in Sources */,
 				C9EED85C1256A4B90035519C /* MRNXTHandleSizeResponse.m in Sources */,
@@ -491,6 +506,7 @@
 				C9A97F9B125A924600390157 /* MRBluetoothDeviceTransport.m in Sources */,
 				C9A97F9D125A924600390157 /* MRDevice.m in Sources */,
 				C9A97F9F125A924600390157 /* MRDeviceTransport.m in Sources */,
+				3DC48A361BA60C7C0039639F /* MRNXTBatteryLevelResponse.m in Sources */,
 				C9A97FA1125A924600390157 /* MRUSBDeviceTransport.m in Sources */,
 				C9A97FA3125A924600390157 /* NSError+IOKit.m in Sources */,
 				3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */,
