@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		C920434612F3B5430090C9CC /* MRUSBDeviceEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = C920434412F3B5430090C9CC /* MRUSBDeviceEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,6 +89,8 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* NXTKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTKit_Prefix.pch; sourceTree = "<group>"; };
+		3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTStopProgramCommand.h; sourceTree = "<group>"; };
+		3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTStopProgramCommand.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* NXTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NXTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C920434412F3B5430090C9CC /* MRUSBDeviceEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRUSBDeviceEntry.h; sourceTree = "<group>"; };
@@ -341,6 +345,8 @@
 				C98D0BF01204F5A100E56E77 /* MRNXTSetOutputStateCommand.m */,
 				C966CF32124E3664008EDF60 /* MRNXTStartProgramCommand.h */,
 				C966CF33124E3664008EDF60 /* MRNXTStartProgramCommand.m */,
+				3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */,
+				3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */,
 				C9EED8A11256AE020035519C /* MRNXTWriteCommand.h */,
 				C9EED8A21256AE020035519C /* MRNXTWriteCommand.m */,
 				C95FF63F12F770BD00FCD7B6 /* MRNXTWriteIOMapCommand.h */,
@@ -361,6 +367,7 @@
 				C98D0BF11204F5A100E56E77 /* MRNXTSetOutputStateCommand.h in Headers */,
 				C98D0BF51204FB6900E56E77 /* NSMutableArray+Queue.h in Headers */,
 				C98D0C021204FF3800E56E77 /* MRNXTResponse.h in Headers */,
+				3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */,
 				C98D0C3B120502E900E56E77 /* MRNXTConstants.h in Headers */,
 				C9AA8AA112060A6800E1C65B /* NXTKit.h in Headers */,
 				C928088F124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.h in Headers */,
@@ -486,6 +493,7 @@
 				C9A97F9F125A924600390157 /* MRDeviceTransport.m in Sources */,
 				C9A97FA1125A924600390157 /* MRUSBDeviceTransport.m in Sources */,
 				C9A97FA3125A924600390157 /* NSError+IOKit.m in Sources */,
+				3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */,
 				C9BA1699125B5DC900374545 /* NSMutableData+NXT.m in Sources */,
 				C997ACDF126A02E1006D4371 /* MRNXTResetMotorPositionCommand.m in Sources */,
 				C920434712F3B5430090C9CC /* MRUSBDeviceEntry.m in Sources */,

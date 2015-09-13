@@ -23,6 +23,7 @@
 #import <NXTKit/MRNXTResetMotorPositionCommand.h>
 #import <NXTKit/MRNXTSetOutputStateCommand.h>
 #import <NXTKit/MRNXTStartProgramCommand.h>
+#import <NXTKit/MRNXTStopProgramCommand.h>
 #import <NXTKit/MRNXTWriteCommand.h>
 #import <NXTKit/MRNXTWriteIOMapCommand.h>
 
