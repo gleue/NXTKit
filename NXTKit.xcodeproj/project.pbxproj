@@ -13,6 +13,8 @@
 		3DC48A321BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */; };
 		3DC48A341BA60C6C0039639F /* MRNXTBatteryLevelResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A331BA60C6C0039639F /* MRNXTBatteryLevelResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC48A361BA60C7C0039639F /* MRNXTBatteryLevelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A351BA60C7C0039639F /* MRNXTBatteryLevelResponse.m */; };
+		3DC48A381BA610670039639F /* MRNXTMessageWriteCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A371BA610670039639F /* MRNXTMessageWriteCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC48A3A1BA6106F0039639F /* MRNXTMessageWriteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A391BA6106F0039639F /* MRNXTMessageWriteCommand.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		C920434612F3B5430090C9CC /* MRUSBDeviceEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = C920434412F3B5430090C9CC /* MRUSBDeviceEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,6 +101,8 @@
 		3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTGetBatteryLevelCommand.m; sourceTree = "<group>"; };
 		3DC48A331BA60C6C0039639F /* MRNXTBatteryLevelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTBatteryLevelResponse.h; sourceTree = "<group>"; };
 		3DC48A351BA60C7C0039639F /* MRNXTBatteryLevelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTBatteryLevelResponse.m; sourceTree = "<group>"; };
+		3DC48A371BA610670039639F /* MRNXTMessageWriteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTMessageWriteCommand.h; sourceTree = "<group>"; };
+		3DC48A391BA6106F0039639F /* MRNXTMessageWriteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTMessageWriteCommand.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* NXTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NXTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C920434412F3B5430090C9CC /* MRUSBDeviceEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRUSBDeviceEntry.h; sourceTree = "<group>"; };
@@ -341,6 +345,8 @@
 				3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */,
 				3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */,
 				C928088E124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.m */,
+				3DC48A371BA610670039639F /* MRNXTMessageWriteCommand.h */,
+				3DC48A391BA6106F0039639F /* MRNXTMessageWriteCommand.m */,
 				C9EED84F1256A2DD0035519C /* MRNXTOpenReadCommand.h */,
 				C9EED8501256A2DD0035519C /* MRNXTOpenReadCommand.m */,
 				C9EED8531256A2F20035519C /* MRNXTOpenWriteCommand.h */,
@@ -377,6 +383,7 @@
 				C98D0B2B1204E96200E56E77 /* MRNXTDevice.h in Headers */,
 				C98D0B551204ED1E00E56E77 /* MRNXTCommand.h in Headers */,
 				C98D0BF11204F5A100E56E77 /* MRNXTSetOutputStateCommand.h in Headers */,
+				3DC48A381BA610670039639F /* MRNXTMessageWriteCommand.h in Headers */,
 				3DC48A301BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h in Headers */,
 				C98D0BF51204FB6900E56E77 /* NSMutableArray+Queue.h in Headers */,
 				C98D0C021204FF3800E56E77 /* MRNXTResponse.h in Headers */,
@@ -517,6 +524,7 @@
 				C93FB1FC12F6177F00BA18F0 /* MRNXTReadIOMapCommand.m in Sources */,
 				C93FB20A12F618E400BA18F0 /* MRNXTIOMapResponse.m in Sources */,
 				C95FF64212F770BD00FCD7B6 /* MRNXTWriteIOMapCommand.m in Sources */,
+				3DC48A3A1BA6106F0039639F /* MRNXTMessageWriteCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

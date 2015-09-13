@@ -16,6 +16,7 @@
 #import <NXTKit/MRNXTFindNextCommand.h>
 #import <NXTKit/MRNXTGetBatteryLevelCommand.h>
 #import <NXTKit/MRNXTGetDeviceInfoCommand.h>
+#import <NXTKit/MRNXTMessageWriteCommand.h>
 #import <NXTKit/MRNXTOpenReadCommand.h>
 #import <NXTKit/MRNXTOpenWriteCommand.h>
 #import <NXTKit/MRNXTPlaySoundFileCommand.h>
