@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5190621BAEDF4E00D36528 /* MRNXTMessageReadResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5190611BAEDF4E00D36528 /* MRNXTMessageReadResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D5190641BAEDF5E00D36528 /* MRNXTMessageReadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */; settings = {ASSET_TAGS = (); }; };
+		3D9317DB1BAB387C0090A505 /* MRNXTMessageReadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D9317DD1BAB38850090A505 /* MRNXTMessageReadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */; settings = {ASSET_TAGS = (); }; };
 		3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */; };
 		3DC48A301BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,6 +99,10 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* NXTKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTKit_Prefix.pch; sourceTree = "<group>"; };
+		3D5190611BAEDF4E00D36528 /* MRNXTMessageReadResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTMessageReadResponse.h; sourceTree = "<group>"; };
+		3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTMessageReadResponse.m; sourceTree = "<group>"; };
+		3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTMessageReadCommand.h; sourceTree = "<group>"; };
+		3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTMessageReadCommand.m; sourceTree = "<group>"; };
 		3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTStopProgramCommand.h; sourceTree = "<group>"; };
 		3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTStopProgramCommand.m; sourceTree = "<group>"; };
 		3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTGetBatteryLevelCommand.h; sourceTree = "<group>"; };
@@ -287,6 +295,8 @@
 				C9EED85A1256A4B90035519C /* MRNXTHandleSizeResponse.m */,
 				C93FB20712F618E400BA18F0 /* MRNXTIOMapResponse.h */,
 				C93FB20812F618E400BA18F0 /* MRNXTIOMapResponse.m */,
+				3D5190611BAEDF4E00D36528 /* MRNXTMessageReadResponse.h */,
+				3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -345,6 +355,8 @@
 				3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */,
 				3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */,
 				C928088E124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.m */,
+				3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */,
+				3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */,
 				3DC48A371BA610670039639F /* MRNXTMessageWriteCommand.h */,
 				3DC48A391BA6106F0039639F /* MRNXTMessageWriteCommand.m */,
 				C9EED84F1256A2DD0035519C /* MRNXTOpenReadCommand.h */,
@@ -396,6 +408,7 @@
 				C9E79F72124D50E7003DAB85 /* MRNXTFileResponse.h in Headers */,
 				C9E79F8A124D5376003DAB85 /* MRNXTFindNextCommand.h in Headers */,
 				C9E7A062124D722E003DAB85 /* MRNXTDeleteCommand.h in Headers */,
+				3D9317DB1BAB387C0090A505 /* MRNXTMessageReadCommand.h in Headers */,
 				C966CF34124E3664008EDF60 /* MRNXTStartProgramCommand.h in Headers */,
 				C9D52235124FBC0800C9AD55 /* MRNXTPlaySoundFileCommand.h in Headers */,
 				C9EED8511256A2DD0035519C /* MRNXTOpenReadCommand.h in Headers */,
@@ -418,6 +431,7 @@
 				C9B692AA12F495E4001A8138 /* MRUSBDevicePipeDescriptor.h in Headers */,
 				C93FB1FB12F6177F00BA18F0 /* MRNXTReadIOMapCommand.h in Headers */,
 				C93FB20912F618E400BA18F0 /* MRNXTIOMapResponse.h in Headers */,
+				3D5190621BAEDF4E00D36528 /* MRNXTMessageReadResponse.h in Headers */,
 				C95FF64112F770BD00FCD7B6 /* MRNXTWriteIOMapCommand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,10 +529,12 @@
 				C9A97F9F125A924600390157 /* MRDeviceTransport.m in Sources */,
 				3DC48A361BA60C7C0039639F /* MRNXTBatteryLevelResponse.m in Sources */,
 				C9A97FA1125A924600390157 /* MRUSBDeviceTransport.m in Sources */,
+				3D9317DD1BAB38850090A505 /* MRNXTMessageReadCommand.m in Sources */,
 				C9A97FA3125A924600390157 /* NSError+IOKit.m in Sources */,
 				3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */,
 				C9BA1699125B5DC900374545 /* NSMutableData+NXT.m in Sources */,
 				C997ACDF126A02E1006D4371 /* MRNXTResetMotorPositionCommand.m in Sources */,
+				3D5190641BAEDF5E00D36528 /* MRNXTMessageReadResponse.m in Sources */,
 				C920434712F3B5430090C9CC /* MRUSBDeviceEntry.m in Sources */,
 				C9B692AB12F495E4001A8138 /* MRUSBDevicePipeDescriptor.m in Sources */,
 				C93FB1FC12F6177F00BA18F0 /* MRNXTReadIOMapCommand.m in Sources */,

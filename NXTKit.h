@@ -16,6 +16,7 @@
 #import <NXTKit/MRNXTFindNextCommand.h>
 #import <NXTKit/MRNXTGetBatteryLevelCommand.h>
 #import <NXTKit/MRNXTGetDeviceInfoCommand.h>
+#import <NXTKit/MRNXTMessageReadCommand.h>
 #import <NXTKit/MRNXTMessageWriteCommand.h>
 #import <NXTKit/MRNXTOpenReadCommand.h>
 #import <NXTKit/MRNXTOpenWriteCommand.h>
@@ -36,6 +37,7 @@
 #import <NXTKit/MRNXTHandleResponse.h>
 #import <NXTKit/MRNXTHandleSizeResponse.h>
 #import <NXTKit/MRNXTIOMapResponse.h>
+#import <NXTKit/MRNXTMessageReadResponse.h>
 
 #import <NXTKit/MRBluetoothDeviceTransport.h>
 #import <NXTKit/MRDevice.h>
