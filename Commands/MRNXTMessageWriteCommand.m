@@ -32,7 +32,7 @@
                 usedLength:NULL
                   encoding:NSUTF8StringEncoding
                    options:0
-                     range:NSMakeRange(0, len)
+                     range:NSMakeRange(0, len-1)
             remainingRange:NULL];
 
     buffer[len - 1] = 0;
