@@ -43,6 +43,8 @@ typedef uint8_t NXTCommandType;
 
 enum _NXTStatus {
 	NXTStatusSuccess = 0x0,
+    NXTCommunicationInProgress = 0x20,
+    NXTMailboxEmpty = 0x40,
 	NXTNoMoreHandles = 0x81,
 	NXTNoSpace = 0x82,
 	NXTNoMoreFiles = 0x83,
@@ -61,6 +63,14 @@ enum _NXTStatus {
 	NXTModuleNotFound = 0x90,
 	NXTOutOfBoundary = 0x91,
 	NXTIllegalFileName = 0x92,
-	NXTIllegalHandle = 0x93
+	NXTIllegalHandle = 0x93,
+    NXTRequestFailed = 0xBD,
+    NXTUnknownCommand = 0xBE,
+    NXTInsanePacket = 0xBF,
+    NXTValuesOutOfRange = 0xC0,
+    NXTNoActiveProgram = 0xEC,
+    NXTIllegalMailbox = 0xEE,
+    NXTOutOfMemory = 0xFB,
+    NXTBadArguments = 0xFF
 };
 typedef uint8_t NXTStatus;
