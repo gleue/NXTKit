@@ -11,6 +11,10 @@
 		3D5190641BAEDF5E00D36528 /* MRNXTMessageReadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */; settings = {ASSET_TAGS = (); }; };
 		3D9317DB1BAB387C0090A505 /* MRNXTMessageReadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D9317DD1BAB38850090A505 /* MRNXTMessageReadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */; settings = {ASSET_TAGS = (); }; };
+		3DABC8121BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC8111BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m */; settings = {ASSET_TAGS = (); }; };
+		3DABC8141BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DABC8131BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DABC8161BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DABC8151BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DABC8181BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC8171BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m */; settings = {ASSET_TAGS = (); }; };
 		3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */; };
 		3DC48A301BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,6 +107,10 @@
 		3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTMessageReadResponse.m; sourceTree = "<group>"; };
 		3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTMessageReadCommand.h; sourceTree = "<group>"; };
 		3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTMessageReadCommand.m; sourceTree = "<group>"; };
+		3DABC8111BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTGetCurrentProgramCommand.m; sourceTree = "<group>"; };
+		3DABC8131BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTGetCurrentProgramCommand.h; sourceTree = "<group>"; };
+		3DABC8151BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTCurrentProgramResponse.h; sourceTree = "<group>"; };
+		3DABC8171BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTCurrentProgramResponse.m; sourceTree = "<group>"; };
 		3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTStopProgramCommand.h; sourceTree = "<group>"; };
 		3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNXTStopProgramCommand.m; sourceTree = "<group>"; };
 		3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNXTGetBatteryLevelCommand.h; sourceTree = "<group>"; };
@@ -283,6 +291,8 @@
 			children = (
 				3DC48A331BA60C6C0039639F /* MRNXTBatteryLevelResponse.h */,
 				3DC48A351BA60C7C0039639F /* MRNXTBatteryLevelResponse.m */,
+				3DABC8151BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h */,
+				3DABC8171BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m */,
 				C93A187912577BE7008F89C8 /* MRNXTDataResponse.h */,
 				C93A187A12577BE7008F89C8 /* MRNXTDataResponse.m */,
 				C92808E8124CF505001E5771 /* MRNXTDeviceInfoResponse.h */,
@@ -351,9 +361,11 @@
 				C9E79F62124D4E93003DAB85 /* MRNXTFindFirstCommand.m */,
 				C9E79F88124D5376003DAB85 /* MRNXTFindNextCommand.h */,
 				C9E79F89124D5376003DAB85 /* MRNXTFindNextCommand.m */,
-				C928088D124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.h */,
 				3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */,
 				3DC48A311BA60BFB0039639F /* MRNXTGetBatteryLevelCommand.m */,
+				3DABC8131BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h */,
+				3DABC8111BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m */,
+				C928088D124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.h */,
 				C928088E124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.m */,
 				3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */,
 				3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */,
@@ -405,6 +417,7 @@
 				C928088F124CEC73001E5771 /* MRNXTGetDeviceInfoCommand.h in Headers */,
 				C92808EA124CF505001E5771 /* MRNXTDeviceInfoResponse.h in Headers */,
 				C9E79F63124D4E93003DAB85 /* MRNXTFindFirstCommand.h in Headers */,
+				3DABC8161BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h in Headers */,
 				C9E79F72124D50E7003DAB85 /* MRNXTFileResponse.h in Headers */,
 				C9E79F8A124D5376003DAB85 /* MRNXTFindNextCommand.h in Headers */,
 				C9E7A062124D722E003DAB85 /* MRNXTDeleteCommand.h in Headers */,
@@ -432,6 +445,7 @@
 				C93FB1FB12F6177F00BA18F0 /* MRNXTReadIOMapCommand.h in Headers */,
 				C93FB20912F618E400BA18F0 /* MRNXTIOMapResponse.h in Headers */,
 				3D5190621BAEDF4E00D36528 /* MRNXTMessageReadResponse.h in Headers */,
+				3DABC8141BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h in Headers */,
 				C95FF64112F770BD00FCD7B6 /* MRNXTWriteIOMapCommand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +478,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NXTKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -539,8 +553,10 @@
 				C9B692AB12F495E4001A8138 /* MRUSBDevicePipeDescriptor.m in Sources */,
 				C93FB1FC12F6177F00BA18F0 /* MRNXTReadIOMapCommand.m in Sources */,
 				C93FB20A12F618E400BA18F0 /* MRNXTIOMapResponse.m in Sources */,
+				3DABC8121BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m in Sources */,
 				C95FF64212F770BD00FCD7B6 /* MRNXTWriteIOMapCommand.m in Sources */,
 				3DC48A3A1BA6106F0039639F /* MRNXTMessageWriteCommand.m in Sources */,
+				3DABC8181BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
