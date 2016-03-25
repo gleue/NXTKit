@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3D5190621BAEDF4E00D36528 /* MRNXTMessageReadResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5190611BAEDF4E00D36528 /* MRNXTMessageReadResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D5190641BAEDF5E00D36528 /* MRNXTMessageReadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */; settings = {ASSET_TAGS = (); }; };
+		3D5190641BAEDF5E00D36528 /* MRNXTMessageReadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5190631BAEDF5E00D36528 /* MRNXTMessageReadResponse.m */; };
 		3D9317DB1BAB387C0090A505 /* MRNXTMessageReadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9317DA1BAB387C0090A505 /* MRNXTMessageReadCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D9317DD1BAB38850090A505 /* MRNXTMessageReadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */; settings = {ASSET_TAGS = (); }; };
-		3DABC8121BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC8111BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m */; settings = {ASSET_TAGS = (); }; };
+		3D9317DD1BAB38850090A505 /* MRNXTMessageReadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9317DC1BAB38850090A505 /* MRNXTMessageReadCommand.m */; };
+		3DABC8121BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC8111BC19B0200E935E3 /* MRNXTGetCurrentProgramCommand.m */; };
 		3DABC8141BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DABC8131BC19B1400E935E3 /* MRNXTGetCurrentProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DABC8161BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DABC8151BC19B9500E935E3 /* MRNXTCurrentProgramResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DABC8181BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC8171BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m */; settings = {ASSET_TAGS = (); }; };
+		3DABC8181BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC8171BC19BA400E935E3 /* MRNXTCurrentProgramResponse.m */; };
 		3DC48A291BA450C60039639F /* MRNXTStopProgramCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A281BA450C60039639F /* MRNXTStopProgramCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DC48A2B1BA450CE0039639F /* MRNXTStopProgramCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC48A2A1BA450CE0039639F /* MRNXTStopProgramCommand.m */; };
 		3DC48A301BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC48A2F1BA60BF00039639F /* MRNXTGetBatteryLevelCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -478,7 +478,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "NXTKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -591,6 +591,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NXTKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = NXTKit;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -614,6 +615,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NXTKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034Identifier}";
 				PRODUCT_NAME = NXTKit;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -630,6 +632,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
